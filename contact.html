@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Silvio's blog WELCOME!</title>
 
   <!-- Font Awesome-->
@@ -23,18 +28,38 @@
     <li><a href="../blog-udacity/index.html">Home</a></li>
     <li><a href="../blog-udacity/blog_list.html">Blog</a></li>
     <li><a href="../blog-udacity/contact.html">Contact</a></li>
- </ul>
-  <article class="main">
-    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>  
-  </article>
+   </ul>
+  
+  <!-- Contact Form -->
+    <div class="container">
+      <div style="text-align:center">
+        <h2>Let's keep in touch and talk nerdy and why not wwing by for a cup of coffee, or leave me a message</h2>
+        
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="../blog-udacity/src/img/webaroo-3Mhgvrk4tjM-unsplash.jpg" style="width:100%">
+        </div>
+        <div class="column">
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
 
-  <aside class="aside aside-2">
-    <p>Recent Articles:</p>
-    <ul>
-      <li><p><a href="../blog-udacity/blog_post1.html">An extra pair of eyes in the sky</p></a></li>
-      <li><p><a href="../blog-udacity/blog_post1.html">Quick look to the Parrot ANAFI Drone</p></a></li>
-  </ul>
-  </aside>
   <footer class="footer">
     <div class="footer elements">
     <p>© 2020 - Silvio Alejandro Ricardo Catalano - all rights reserved</p>
@@ -51,3 +76,4 @@
 </div>
 </body>
 </html>
+    
