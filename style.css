@@ -1,6 +1,6 @@
-@import "../blog-udacity/navigation.css";
-@import "../blog-udacity/blog_post.css";
-@import "../blog-udacity/contact.css";
+@import "navigation.css";
+@import "blog_post.css";
+@import "contact.css";
 
 /* Structure of blog */
 p {
@@ -10,7 +10,7 @@ p {
 .wrapper {
   display: flex;  
   flex-flow: row wrap;
-  font-weight: bold;
+  font-weight: normal;
   text-align: center;
 }
 
@@ -22,7 +22,7 @@ p {
 .header {
   background: white;
   background-image: url(https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg);
-  background-size: cover;
+  background-size: initial;
 }
 
 .footer {
