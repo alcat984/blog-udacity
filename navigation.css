@@ -19,7 +19,7 @@
 }
 
 .navigation a:hover {
-  background: #1565C0;
+  background: white;
 }
 
 @media all and (max-width: 800px) {
